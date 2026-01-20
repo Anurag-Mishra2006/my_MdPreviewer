@@ -1,4 +1,5 @@
 import { marked } from 'marked'
+import '../markdown.css';
 
 interface PreviewProps {
   markdown: string

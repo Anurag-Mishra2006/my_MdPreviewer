@@ -1,5 +1,5 @@
 const Example = `
-    # Markdown syntax guide
+# Markdown syntax guide
 
 ## Headers
 
@@ -60,6 +60,6 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 | left baz      | right baz     |
 
 ## Blocks of code
- 
-`
-export  {Example};
+`;
+
+export { Example };
