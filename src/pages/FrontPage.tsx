@@ -5,7 +5,7 @@ import Preview from '../components/Preview'
 
 function FrontPage() {
   const [markdown, setMarkdown] = useState(
-    localStorage.getItem('markdown') || "# Welcome"
+    localStorage.getItem('markdown') || `$example`
   )
 
   return (
