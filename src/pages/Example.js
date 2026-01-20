@@ -1,4 +1,5 @@
-# Markdown syntax guide
+const Example = `
+    # Markdown syntax guide
 
 ## Headers
 
@@ -59,12 +60,6 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 | left baz      | right baz     |
 
 ## Blocks of code
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+ 
+`
+export  {Example};
