@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+# 📝 My_MdPreviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **fast and responsive Markdown Previewer** built with **React + TypeScript + Vite**.  
+Write Markdown on the left and see the rendered preview instantly on the right.
 
-Currently, two official plugins are available:
+![App Screenshot](/public/appSs.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live site: [my-md-previewer-48376uwiv-tonnys-projects-6545326d.vercel.app](https://my-md-previewer.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✍️ Live Markdown editor on the left  
+- 👀 Real-time preview on the right  
+- 🔄 Reset, Copy, and Dark mode toggle buttons  
+- ⚡ Fast and minimal UI powered by Vite  
+- 🛠 Built with TypeScript for type safety  
+- 💡 Supports GitHub Flavored Markdown (GFM) and line breaks  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> ⚠️ Note: The functionality of **Reset, Copy, and Dark mode** will be updated soon.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🧑‍💻 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **React** – Frontend UI library  
+- **TypeScript** – Static typing  
+- **Vite** – Fast development server & bundler  
+- **Tailwind CSS** – Styling  
+- **Marked.js** – Markdown parsing  
+
+---
+
+## ⚙️ Usage
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/<your-username>/my-md-previewer.git
+cd my-md-previewer
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Install dependencies:
+```bash
+  npm install
 ```
+3. Start the development server:
+```bash
+   npm run dev
+```
+4. Open your browser and go to:
+```bash
+http://localhost:5173
+
+```
+---
+
+## 📝 Notes
+
+- 🔄 **Reset button** clears the editor content (functionality coming soon).  
+- 📋 **Copy button** copies the rendered Markdown HTML or raw Markdown (functionality coming soon).  
+- 🌙 **Dark mode toggle** for easy viewing at night (functionality coming soon).  
+- 🎨 **Styles** are fully customizable via Tailwind CSS.
+---
+## 💡 Future Improvements
+
+- 📄 **Add download as PDF/MD feature**  
+- 🎨 **Add theme customization**  
+- ⌨️ **Add keyboard shortcuts for Reset/Copy**
