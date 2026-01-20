@@ -6,7 +6,7 @@ import { Example } from './example'; // adjust path if needed
 
 function FrontPage() {
   const [markdown, setMarkdown] = useState(
-    localStorage.getItem('markdown') || `${Example}`
+    localStorage.getItem('markdown') || Example
   )
 
   return (
