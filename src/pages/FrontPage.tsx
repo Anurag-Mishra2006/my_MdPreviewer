@@ -4,7 +4,7 @@ import Editor from '../components/Editor'
 import Preview from '../components/Preview'
 function FrontPage() {
   const Example = `
-      # Markdown syntax guide
+# Markdown syntax guide
 
 ## Headers
 
