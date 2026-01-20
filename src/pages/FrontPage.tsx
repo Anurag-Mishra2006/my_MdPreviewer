@@ -48,7 +48,7 @@ _You **can** combine them_
 
 ## Links
 
-You may be using [Markdown Live Preview](https://github.com/Anurag-Mishra2006?tab=repositories).
+You may be using **[Markdown Live Preview](https://github.com/Anurag-Mishra2006?tab=repositories)**.
 
 ## Blockquotes
 
