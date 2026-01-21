@@ -65,3 +65,43 @@
     border-radius: 6px;
     overflow-x: auto;
 }
+
+/* Dark mode for markdown preview */
+.dark .markdown-body {
+  background-color: #0f172a;   /* dark slate */
+  color: #e5e7eb;              /* light gray text */
+}
+
+.dark .markdown-body h1,
+.dark .markdown-body h2,
+.dark .markdown-body h3,
+.dark .markdown-body h4,
+.dark .markdown-body h5,
+.dark .markdown-body h6 {
+  color: #f9fafb;
+}
+
+.dark .markdown-body a {
+  color: #60a5fa;
+}
+
+.dark .markdown-body code {
+  background-color: #1f2937;
+  color: #facc15;
+}
+
+.dark .markdown-body pre {
+  background-color: #020617;
+  color: #e5e7eb;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.dark .markdown-body table {
+  border-color: #374151;
+}
+
+.dark .markdown-body th,
+.dark .markdown-body td {
+  border-color: #374151;
+}

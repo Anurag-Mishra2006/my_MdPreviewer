@@ -12,12 +12,12 @@ function Editor({ markdown, setMarkdown }: EditorProps) {
   }, [markdown]);
 
   return (
-    <div className="w-1/2 h-screen border border-gray-900 p-4">
+    <div className="w-1/2 h-screen border border-gray-900 p-1">
       <textarea
         value={markdown}
         onChange={(e) => setMarkdown(e.target.value)}
         placeholder="Write your md here"
-        className="w-full h-full resize-none outline-none font-mono text-base p-3 bg-white"
+        className="w-full h-full resize-none outline-none font-mono text-base p-3 bg-gray-50 dark:bg-gray-300"
       />
     </div>
   )

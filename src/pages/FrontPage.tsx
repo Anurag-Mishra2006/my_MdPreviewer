@@ -76,7 +76,7 @@ You may be using **[Markdown Live Preview](https://github.com/Anurag-Mishra2006/
     <div className="h-screen flex flex-col">
       <Header />
 
-      <div className="flex flex-1">
+      <div className="flex flex-1  bg-white dark:bg-black text-black dark:text-white-500">
         <Editor markdown={markdown} setMarkdown={setMarkdown} />
         <Preview markdown={markdown} />
       </div>
