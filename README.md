@@ -59,7 +59,7 @@ http://localhost:5173
 
 - 🔄 **Reset button** clears the editor content (functionality coming soon).  
 - 📋 **Copy button** copies the rendered Markdown HTML or raw Markdown (functionality coming soon).  
-- 🌙 **Dark mode toggle** for easy viewing at night (functionality coming soon).  
+- 🌙 **Dark mode toggle** for easy viewing at night.  
 - 🎨 **Styles** are fully customizable via Tailwind CSS.
 ---
 ## 💡 Future Improvements
